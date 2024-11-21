@@ -85,5 +85,50 @@
 
 # LISTAS DENTRO DE LISTAS
 
+# inventario = []
+# resposta = 'S'
 
-# --------------------------------------------------------------------------------- #
+# # Adiciona um equipamento
+# while resposta == 'S':
+#     equipamento = [input('Digite o nome do Equipamento: '),
+#                 float(input('Valor: ')),
+#                 int(input('Número Serial: ')),
+#                 input('Departamento: ')]
+#     inventario.append(equipamento)
+#     resposta = input('Digite "S" para continuar: ').upper()
+
+# # Lista de Equipamentos
+# for elemento in inventario:
+#     print('Nome.........: ', elemento[0])
+#     print('Valor........: ', elemento[1])
+#     print('Serial.......: ', elemento[2])
+#     print('Departamento.: ', elemento[3])
+
+# # Busca de equipamentos
+# busca = input('Digite o NOME do equipamento que deseja buscar: ')
+# for elemento in inventario:
+#     if busca == elemento[0]:
+#         print('Valor........: ', elemento[1])
+#         print('Serial.......: ', elemento[2])
+
+# # Depreciação de equipamentos
+# depreciacao = input('Digite o NOME do equipamento que será depreciado: ')
+# for elemento in inventario:
+#     if depreciacao == elemento[0]:
+#         print('Valor antigo: ', elemento[1])
+#         elemento[1] = elemento[1] * 0.9
+#         print('Novo valor: ', elemento[1])
+
+# # Exclusão de equipamentos
+# serial = int(input('Digite o SERIAL do equipamento que será excluído: '))
+# for elemento in inventario:
+    
+#     if elemento[2] == serial:
+#         inventario.remove(elemento)
+
+# # Lista de equipamentos
+# for elemento in inventario:
+#     print('Nome.........: ', elemento[0])
+#     print('Valor........: ', elemento[1])
+#     print('Serial.......: ', elemento[2])
+#     print('Departamento.: ', elemento[3])
