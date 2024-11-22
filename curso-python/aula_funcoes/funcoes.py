@@ -50,7 +50,7 @@
 
 def preencherInventario(lista):
     resp = 'S'
-    while resp == 'S':
+    while resp.strip().upper() == 'S':
         equipamento = [input('Digite o nome do Equipamento: '),
                        float(input('Valor: ')),
                        int(input('Número Serial: ')),
