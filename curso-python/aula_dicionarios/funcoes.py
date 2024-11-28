@@ -37,6 +37,7 @@ def listar(dicionario):
         print('Dados...: ', valor)
 
 # ---------------------------------------------------------------------- #
+
 # MÉTODOS ADICIONAIS PARA DICIONÁRIOS
 
 # items()
@@ -51,4 +52,10 @@ def listar(dicionario):
 # has_keys()
 # Retorna se a chave existe ou não dentro do dicionário. Ture(1) ou False(0)
 
-#
+# clear()
+# Esvazia completamente o dicionário
+
+# popitem
+# Executa de maneira aleatória, individualmente, e na sequência, deverão ser eliminados do dicionário.
+
+# ---------------------------------------------------------------------- #
