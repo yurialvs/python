@@ -21,6 +21,12 @@
 # caso fosse necessário.
 
 # ----------------------------------------------------------------------- #
+# Caminho relativo de acordo com o repositório python "./curso-python/aula...."
 
-with open('teste.txt', 'r') as arquivo:
-    conteudo = arquivo.read()
+# Primeira operação de escrita (sobrescreve o arquivo)
+with open('./curso-python/aula_manipula_arquivos/teste.txt', 'w') as arquivo:
+    arquivo.write('Texto 01. \n')
+
+# Segunda operação de escrita (adiciona ao arquivo)
+with open('./curso-python/aula_manipula_arquivos/teste.txt', 'a') as arquivo:
+    arquivo.write('Texto 02.')
